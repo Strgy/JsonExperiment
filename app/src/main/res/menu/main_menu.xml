@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/imagePicker"
+        android:title="Set theme"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/Aurora"
+                android:title="Aurora"
+                app:showAsAction="always"></item>
+            <item
+                android:id="@+id/Sky"
+                android:title="Sky"
+                app:showAsAction="always"></item>
+            <item
+                android:id="@+id/Desert"
+                android:title="Desert"
+                app:showAsAction="always"></item>
+            <item
+                android:id="@+id/Grass"
+                android:title="Grass"
+                app:showAsAction="always"></item>
+            <item
+                android:id="@+id/Iceberg"
+                android:title="Iceberg"
+                app:showAsAction="always"></item>
+            <item
+                android:id="@+id/Night_sky"
+                android:title="Night sky"
+                app:showAsAction="always"></item>
+        </menu>
+
+    </item>
+
+
+</menu>
